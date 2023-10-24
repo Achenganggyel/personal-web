@@ -1,0 +1,41 @@
+.skill {
+    width: 100%;
+    height: 30rem;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skill-title {
+    position: absolute;
+    font-weight: 500;
+    font-size: 3rem;
+    color: #fff;
+    margin-top: 1rem;
+}
+.skill-introduction {
+    position: absolute;
+    margin-top: 6rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+.skill-slider {
+    width: 80%;
+    margin: 13rem auto;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.skill-slider .item img {
+    width: 50%;
+    margin: 0 auto 15px auto;
+    text-align: center;
+}
+.background-image-left {
+    top: 28%;
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    z-index: -4;
+}

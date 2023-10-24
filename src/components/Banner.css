@@ -1,0 +1,128 @@
+.banner {
+    background-image: url('../assets/img/banner-bg-2.jpg') ;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    width: 100%;
+    height: 42rem;
+    position: relative;
+}
+.banner .banner-dynamic-item {
+    position: absolute;
+    right: 5rem;
+    top: 21rem;
+    width: 18rem;
+    height: 18rem;
+    z-index: 15;
+}
+.banner button {
+    color: #fff;
+    background-color: rgb(155, 62, 176);
+    letter-spacing: 0.8px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 1rem 1rem;
+    border-radius: 10px;
+    width: 8rem;
+    height: 2rem;
+    border: none;
+    letter-spacing: 0.8px;
+}
+.banner button svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+}
+.banner button:hover svg {
+    margin-left: 25px;
+}
+.groundGlass-panel {
+    position: absolute;
+    background-color: #ccaccf42;
+    backdrop-filter: blur(15px);
+    left: calc(4%);
+    top: calc(10%);
+    width: 64%;
+    height: 80%;
+    border-radius: 20px;
+    z-index: 10;
+    align-items: center;
+}
+.introduction-text {
+    overflow: hidden;
+    height: 8.5rem;
+}
+.form-group {
+    position: absolute;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /*换行*/
+    justify-content: flex-start; /*水平对其在容器开头/中间-center*/
+    align-items: center; /*垂直对齐*/
+    z-index: 15;
+}
+.form-control {
+    border-radius: 12px;
+    height: 2.5rem;
+    background-color: #ae93c851;
+    border-color: #ffffff34;
+    color: #fff;
+    padding-left: 0.6rem;
+    font-size: 1.01rem;
+    margin: 0.3rem 1rem;
+}
+.form-control::placeholder {
+    color: #f3eed4;
+    font-size: 1.01rem;
+    overflow: hidden;
+}
+.form-basicInfo {
+    width: 20%;
+    margin-right: 3%;
+}
+.form-address {
+    width: 37.5%;
+}
+.form-email-title {
+    width: 87%;
+}
+.form-email-content {
+    width: 87%;
+    height: 12rem;
+}
+.banner h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin:1rem 2rem;
+    display: block;
+}
+.banner p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 96%;
+}
+.banner img {
+    animation: updown 3s linear infinite;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+.txt-rotate > .wrap {
+    border-right: 0.08em solid #666;
+}
